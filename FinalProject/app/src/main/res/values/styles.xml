@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- To change action bar text color -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- This has to be here to make it work; let me know if you know why -->
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+
+    </style>
+</resources>
